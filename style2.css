@@ -1,0 +1,66 @@
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+}
+
+.form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form button {
+    padding: 10px;
+    border: none;
+    background-color: #e06c28;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-container, .learn-more-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item, .learn-more-container p {
+    margin-bottom: 10px;
+}
+
+button.checkout, button.learn-more-btn {
+    padding: 10px;
+    background-color: #e06c28;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
